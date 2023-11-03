@@ -1,0 +1,98 @@
+fieldset{
+    background-color: wheat;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left:400px;
+    border-color: white;
+    border: none;
+    box-shadow: 0 0 10px white;
+    align:center;
+    
+}
+.calculator audio{
+  color: palevioletred;
+  background-color: palevioletred;
+}
+div{
+    width: 375px; 
+    max-width: 400px; 
+    margin-left :20px;
+    margin-top: 35px;
+    margin-left :20px;
+
+}
+h1{
+      text-align: center;
+      font-size: 2.5rem;
+      color: peru;
+      margin-bottom:1px;
+      font-family: 'Times New Roman', Times, serif;
+     
+}
+input{
+    background-color:wheat;
+    color:black;
+    text-shadow: palevioletred;
+}
+
+  body {
+   
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 10;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: wheat;
+  }
+
+  .calculator {
+    border: 1px solid palevioletred;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: peru;
+    margin: 2rem;
+  }
+ 
+
+  .calculator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .calculator button {
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+    margin: 2px;
+    border: none;
+    color:white;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .calculator button:hover {
+    background-color: paleturquoise;
+  }
+
+  .calculator button.operator {
+    background-color: black;
+    color:white;
+  }
+
+  .calculator button.operator:hover {
+    background-color: palevioletred;
+  }
+  .cal-cont1{
+    width:280px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
